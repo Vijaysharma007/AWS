@@ -1,0 +1,46 @@
+EC2 (Elastic Compute Cloud) instance is a virtual server in AWS for running applications on Amazon’s infrastructure.It allows users to rent virtual computers to run applications, with control over compute power, storage, and configuration. 
+EC2 instances work by leveraging virtualization, running on a hypervisor that manages resources and isolates instances on physical hardware.
+EC2 is a fundamental service in AWS that provides saclable computing capacity in the cloud.
+
+Here are the key concepts & components you can use with in EC2:-
+  1. Instance 
+  2. Security
+  3. Networking
+  4. Storage
+  5. Scaling
+  6. Monitoring & Management 
+
+1. Instances:
+Instance Types: Understand the different instance types (e.g., T2, M5, C5) and their use cases.
+Launching Instances: Learn how to launch and configure instances using the AWS Management Console, CLI, and SDKs.
+AMI (Amazon Machine Images): Create, use, and manage AMIs for launching instances.
+
+2.Security:
+Security Groups: Configure security groups to control inbound and outbound traffic to instances.
+Key Pairs: Manage SSH key pairs for secure access to instances.
+IAM Roles: Assign IAM roles to instances for secure access to AWS services.
+
+3.Networking:
+Elastic IPs: Allocate and associate Elastic IP addresses with instances.
+VPC (Virtual Private Cloud) Integration: Understand how EC2 instances work within a VPC, including subnetting, routing, and internet gateways.
+ENI (Elastic Network Interfaces): Manage and attach ENIs to instances.
+
+4.Storage:
+EBS (Elastic Block Store): Create and manage EBS volumes, snapshots, and encryption.
+Instance Store: Use and understand ephemeral storage provided by instance store.
+EFS (Elastic File System): Mount EFS file systems to instances for shared storage.
+
+5.Scaling:
+Auto Scaling: Set up Auto Scaling groups to automatically scale instances based on demand.
+Elastic Load Balancing (ELB): Distribute traffic across multiple instances for high availability.
+
+6.Monitoring and Management:
+CloudWatch: Monitor instance performance, set alarms, and create dashboards.
+Systems Manager: Use Systems Manager for automated patching, configuration, and management of instances.
+CloudTrail: Track and audit API calls made to your EC2 instances.
+
+
+
+
+
+
